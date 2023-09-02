@@ -9,6 +9,11 @@
 - [Chat löschen](#chat-löschen)
   - [Befehl: Chat löschen](#befehl-chat_löschen)
 
+- [Abwesenheiten](#abwesenheiten)
+  - [Befehl: Abwesenheit eintragen](#befehl-abwesenheit-eintragen)
+  - [Befehl: Abwesenheit austragen](#befehl-abwesenheit-austragen)
+  - [Befehl: Tabelle aller Abwesenheiten](#befehl-abwesenheit-tabelle)
+
 - [Musikbot (Youtube, Spotify, Radio)](#musikbot-youtube-spotify-radio)
   - [Befehl: Musikkanal beitreten](#befehl-join)
   - [Befehl: Musikkanal verlassen](#befehl-leave)
@@ -70,6 +75,35 @@ Parameter:
 
 Erklärung: Löscht alle Kommunikationen mit dem Bot.
 
+
+## Abwesenheiten<a name="abwesenheiten"></a>
+
+### Befehl: Abwesenheit eintragen<a name="befehl-abwesenheit-eintragen"></a>
+
+```
+/abwesenheit_eintragen
+```
+
+Erklärung: Dieser Befehl ermöglicht es dem User, seine Abwesenheit einzutragen
+
+### Befehl: Abwesenheit austragen<a name="befehl-abwesenheit-austragen"></a>
+
+```
+/abwesenheit_austragen
+```
+
+Erklärung: Dieser Befehl ermöglicht es dem User, seine Abwesenheit auszutragen
+
+### Befehl: Abwesenheit austragen<a name="befehl-abwesenheit-tabelle"></a>
+
+```
+/abwesenheit_tabelle
+```
+
+Erklärung: Der Bot schickt eine Tabelle mit allen Personen, die krank sind hinein.
+Diese Tabelle beinhaltet folgendes:
+- Name
+- Klasse
 
 
 ## Musikbot (Youtube, Spotify, Radio)<a name="musikbot-youtube-spotify-radio"></a>
