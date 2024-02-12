@@ -2,17 +2,10 @@
 
 ## Inhaltsverzeichnis
 
-- [Anmeldung am Server](#anmeldung-am-server)
-  - [Befehl: Neustart der Anmeldung](#befehl-anmeldung_neustarten)
-  - [Befehl: Schüler verifizieren](#befehl-schüler_verifizieren)
+
 
 - [Chat löschen](#chat-löschen)
   - [Befehl: Chat löschen](#befehl-chat_löschen)
-
-- [Abwesenheiten](#abwesenheiten)
-  - [Befehl: Abwesenheit eintragen](#befehl-abwesenheit-eintragen)
-  - [Befehl: Abwesenheit austragen](#befehl-abwesenheit-austragen)
-  - [Befehl: Tabelle aller Abwesenheiten](#befehl-abwesenheit-tabelle)
 
 - [Musikbot (Youtube, Spotify, Radio)](#musikbot-youtube-spotify-radio)
   - [Befehl: Musikkanal beitreten](#befehl-join)
@@ -28,41 +21,13 @@
   - [Befehl: Radiosenderliste](#befehl-radio_list)
   - [Befehl: Radiosender abspielen](#befehl-radio_play)
 
-- [Webuntis](#webuntis)
+- [Spiele](#spiele)
+  - [Befehl: Tic Tac Toe spielen](#befehl-tictactoe)
+
+<!--- - [Webuntis](#webuntis)
   - [Befehl: Aktuelle Unterrichtsstunde](#befehl-webuntis_aktuell)
   - [Befehl: Unterrichtsfächer für ein bestimmtes Datum](#befehl-webuntis_datum)
-  - [Befehl: Klassenraum suchen](#befehl-webuntis_wo)
-
-## Anmeldung am Server<a name="anmeldung-am-server"></a>
-
-### Befehl: Neustart der Anmeldung<a name="befehl-anmeldung_neustarten"></a>
-
-```
-/anmeldung_neustarten
-```
-
-Erklärung: Dieser Befehl ermöglicht den Neustart der Anmeldung am Server, sollte der Schüler den Neustart abgebrochen haben.
-
-
-
-### Befehl: Schüler verifizieren<a name="befehl-schüler_verifizieren"></a>
-
-```
-/schüler_verifizieren benutzer_id:benutzerid benutzername:benutzername
-```
-
-Erklärung: Mit diesem Befehl können Schüler verifiziert werden.
-
-<font color="red">Warnung:</font> Dieser Befehl sollte und kann nur von Moderatoren, Admins, Tech-Support oder Klassensprechern verwendet werden.
-
-<font color="red">Information:</font> Klassensprecher können nur Schüler aus der eigenen Klasse verifizieren, Admins und Moderatoren hingegen aus jeder Klasse.
-
-Parameter:
-- benutzer_id: Die Benutzer-ID des zu verifizierenden Nutzers z.B 760121326618411019
-- benutzername: z.B el_rolando
-
-<font color="red">Warnung:</font> Es darf entweder der Parameter benutzer_id oder der Parameter benutzername verwendet werden.
-
+  - [Befehl: Klassenraum suchen](#befehl-webuntis_wo) -->
 
 
 ## Chat löschen<a name="chat-löschen"></a>
@@ -75,35 +40,6 @@ Parameter:
 
 Erklärung: Löscht alle Kommunikationen mit dem Bot.
 
-
-## Abwesenheiten<a name="abwesenheiten"></a>
-
-### Befehl: Abwesenheit eintragen<a name="befehl-abwesenheit-eintragen"></a>
-
-```
-/abwesenheit_eintragen
-```
-
-Erklärung: Dieser Befehl ermöglicht es dem User, seine Abwesenheit einzutragen
-
-### Befehl: Abwesenheit austragen<a name="befehl-abwesenheit-austragen"></a>
-
-```
-/abwesenheit_austragen
-```
-
-Erklärung: Dieser Befehl ermöglicht es dem User, seine Abwesenheit auszutragen
-
-### Befehl: Abwesenheit austragen<a name="befehl-abwesenheit-tabelle"></a>
-
-```
-/abwesenheit_tabelle
-```
-
-Erklärung: Der Bot schickt eine Tabelle mit allen Personen, die krank sind hinein.
-Diese Tabelle beinhaltet folgendes:
-- Name
-- Klasse
 
 
 ## Musikbot (Youtube, Spotify, Radio)<a name="musikbot-youtube-spotify-radio"></a>
@@ -223,9 +159,10 @@ Parameter: Hier kommen die Parameter hin.
 
 Erklärung: Mit diesem Befehl kann die Liste der verfügbaren Radiosender angezeigt werden.
 Derzeit unterstützt: 
-1. Rádio 1 89.5 Budapest (Ungarn)
-2. Ö3 (Österreich)
-3. Radio Burgenland (Burgenland, Österreich)
+1. Rádió 1 89.5 (Budapest, Ungarn)
+2. Radio Burgenland (Österreich)
+3. Ö3 (Österreich)
+4. Retró Radió (Ungarn)
 
 ### Befehl: Radiosender abspielen<a name="befehl-radio_play"></a>
 
@@ -241,6 +178,7 @@ Parameter:
 
 <font color="red">Warnung:</font> Es kann entweder der Parameter radio_name oder der Parameter radio_position verwendet werden.
 
+<!---
 ## Webuntis<a name="webuntis"></a>
 
 ### Befehl: Aktuelle Unterrichtsstunde<a name="befehl-webuntis_aktuell"></a>
@@ -274,4 +212,14 @@ Erklärung: Der Bot antwortet mit der Information, wo sich der Raum befindet
 
 Parameter:
 - klassenraum: Der Name des Klassenraums, zum Beispiel: 6A
+-->
 
+## Spiele <a name="spiele"></a>
+
+### Befehl: Tic Tac Toe spielen<a name="befehl-tictactoe"></a>
+
+```
+/tictactoe
+```
+
+Erklärung: Der Bot startet eine Spielrunde Tic-Tac-Toe
